@@ -1,0 +1,267 @@
+.order-confirmation-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.confirmation-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.confirmation-header i {
+  font-size: 4rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+.confirmation-header h2 {
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.order-number {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.confirmation-content {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 2rem;
+}
+
+/* Order Details Styles */
+.order-details {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.order-details h3 {
+  color: #333;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.order-items {
+  margin-bottom: 1.5rem;
+}
+
+.order-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+  color: #666;
+}
+
+.item-quantity {
+  color: #999;
+}
+
+.order-totals {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.total-row.final {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Delivery Details Styles */
+.delivery-details {
+  margin: 1.5rem 0;
+}
+
+.delivery-details p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.estimated-delivery {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4CAF50 !important;
+  margin-top: 1rem !important;
+}
+
+.payment-reminder {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+}
+
+.payment-reminder p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  margin: 0;
+}
+
+.payment-reminder i {
+  color: #4CAF50;
+}
+
+/* Additional Actions Styles */
+.additional-actions {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.email-confirmation {
+  margin-bottom: 2rem;
+}
+
+.email-confirmation form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.email-confirmation input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.email-confirmation button,
+.track-button,
+.submit-survey {
+  padding: 0.8rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-confirmation button:hover,
+.track-button:hover,
+.submit-survey:hover {
+  background-color: #45a049;
+}
+
+.confirmation-sent,
+.survey-thanks {
+  text-align: center;
+  color: #4CAF50;
+  margin: 1rem 0;
+}
+
+.confirmation-sent i,
+.survey-thanks i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.track-order {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.track-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+/* Satisfaction Survey Styles */
+.satisfaction-survey {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.rating-button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rating-button:hover {
+  border-color: #4CAF50;
+}
+
+.rating-button.selected {
+  border-color: #4CAF50;
+  background-color: #f0f9f0;
+}
+
+.continue-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #f0f9f0;
+  color: #4CAF50;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-shopping:hover {
+  background-color: #e0f2e0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .confirmation-content {
+    grid-template-columns: 1fr;
+  }
+
+  .email-confirmation form {
+    flex-direction: column;
+  }
+
+  .email-confirmation button {
+    width: 100%;
+  }
+
+  .order-item {
+    grid-template-columns: 1fr auto;
+  }
+
+  .item-quantity {
+    grid-column: 2;
+  }
+
+  .item-price {
+    grid-column: 1 / -1;
+    text-align: right;
+  }
+}

@@ -1,0 +1,15 @@
+<svg width="1920" height="600" viewBox="0 0 1920 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5f7a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c8f47;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="pattern1" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.2)" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#heroGradient)" />
+  <rect width="100%" height="100%" fill="url(#pattern1)" />
+  <path d="M0,400 Q480,300 960,400 T1920,400 V600 H0 Z" fill="rgba(255,255,255,0.1)" />
+  <path d="M0,450 Q480,350 960,450 T1920,450 V600 H0 Z" fill="rgba(255,255,255,0.05)" />
+</svg>
