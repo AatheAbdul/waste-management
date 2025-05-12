@@ -4,7 +4,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { useCart } from '../../contexts/CartContext';
 import { Badge, IconButton } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Logo from 'src/assets/images/EcoCrush_Logo.png';
+import Logo from '../../assets/images/EcoCrush_Logo.png';
 import UserMenu from './UserMenu';
 import './Header.css';
 import '../../styles/animations.css';
