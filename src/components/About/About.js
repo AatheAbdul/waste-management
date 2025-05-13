@@ -133,7 +133,7 @@ const About = () => {
         <div className="team-grid">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member">
-              <div className="member-image"><img src={member.image}></img></div>
+              <div className="member-image"><img src={member.image} alt={member.name}></img></div>
               <h3>{member.name}</h3>
               <p className="member-role">{member.role}</p>
               <p className="member-bio">{member.bio}</p>
