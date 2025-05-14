@@ -2,7 +2,7 @@
   "name": "waste-management",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://AatheAbdul.github.io/waste-management",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
