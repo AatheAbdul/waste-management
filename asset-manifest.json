@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/waste-management/static/css/main.6c41de37.css",
+    "main.js": "/waste-management/static/js/main.41474f8c.js",
+    "static/js/453.999ef42f.chunk.js": "/waste-management/static/js/453.999ef42f.chunk.js",
+    "static/media/aathe.jpg": "/waste-management/static/media/aathe.b3bc4292ae7ad194b8da.jpg",
+    "static/media/functionHall.jpeg": "/waste-management/static/media/functionHall.fcfc0a7e4dce82722569.jpeg",
+    "static/media/fa-solid-900.ttf": "/waste-management/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/composting.jpg": "/waste-management/static/media/composting.2a92f4f4225dd289b81c.jpg",
+    "static/media/ananya.jpg": "/waste-management/static/media/ananya.3ae268153265c95a1301.jpg",
+    "static/media/fa-brands-400.ttf": "/waste-management/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/waste-management/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/bioenzymes.jpg": "/waste-management/static/media/bioenzymes.f2fe8e82a9d739192047.jpg",
+    "static/media/aasikha.jpg": "/waste-management/static/media/aasikha.c187d9b1128febe54484.jpg",
+    "static/media/fa-brands-400.woff2": "/waste-management/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/bioenzyme.jpg": "/waste-management/static/media/bioenzyme.4a671f550e3d264c35a5.jpg",
+    "static/media/compostMaking.jpg": "/waste-management/static/media/compostMaking.8a3daf82cad36757058f.jpg",
+    "static/media/EcoCrush_Logo.png": "/waste-management/static/media/EcoCrush_Logo.2f2ab4163ea58e44037f.png",
+    "static/media/fa-regular-400.ttf": "/waste-management/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/compost.jpg": "/waste-management/static/media/compost.c77b4b106536e4f58c17.jpg",
+    "static/media/fa-regular-400.woff2": "/waste-management/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/waste-management/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/waste-management/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/waste-management/index.html",
+    "main.6c41de37.css.map": "/waste-management/static/css/main.6c41de37.css.map",
+    "main.41474f8c.js.map": "/waste-management/static/js/main.41474f8c.js.map",
+    "453.999ef42f.chunk.js.map": "/waste-management/static/js/453.999ef42f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c41de37.css",
+    "static/js/main.41474f8c.js"
+  ]
+}
